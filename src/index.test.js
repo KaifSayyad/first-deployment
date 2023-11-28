@@ -16,5 +16,11 @@ test("Should subtract two numbers", () => {
 });
 
 // Test Case 3 (Multiplication)
+test("Should add two numbers", () => {
+  expect(multiply(5, 2)).toBe(10);
+});
 
 // Test Case 4 (Division)
+test("Should add two numbers", () => {
+  expect(divide(4, 2)).toBe(2);
+});
